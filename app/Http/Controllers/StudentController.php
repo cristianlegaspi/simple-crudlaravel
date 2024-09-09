@@ -14,7 +14,7 @@ class StudentController extends Controller
     }
 
     public function studentcreate(){
-        return view('student.studentcreate');
+     
     }
 
     public function store(Request $request){
@@ -33,9 +33,7 @@ class StudentController extends Controller
     }      
 
     public function edit(student $student){
-
-        // dd($student);
-        return view('student.edit', ['student' => $student]);
+       
 
     }
 
